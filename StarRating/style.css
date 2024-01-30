@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin:0px;
+  background: #E6E9FB;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flotante{
+  background-color:#FFFFFF;
+  width: 775px;
+  height: 394px;
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 16px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 4px 0px rgba(255, 255, 255, 0.40);
+}
+.hijo1{
+  display:flex;
+  justify-content: center;
+  width: 647px;
+  height: 60px;  
+  background-color: #FFFFFF;
+
+}
+.hijo2{
+  display:flex;
+  justify-content: center;
+  flex-direction:row;
+  width: 647px;
+  height: 84px;
+  background-color: #FFFFFF;
+  gap:32px;
+
+}
+.hijo3{
+  text-align: center;
+  width: 647px;
+  height: 54px;
+  background-color: #FFFFFF;
+  color: #374151;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.textoTitulo{
+  width: 450px;
+  height: 60px;
+  color: #0F172A;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+svg{
+  height: 84px;
+  width: 84px;
+
+}

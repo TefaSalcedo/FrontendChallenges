@@ -1,0 +1,114 @@
+body{
+    margin:0%;
+    height: 100vh; 
+    /* /* esto hace que el body tenga el alto de la ventana del navegador  */
+    background-color:#f2f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dios{
+    margin-top: 2.4rem;
+    display:flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+/* Imagen */
+    .wave-container {
+        position: relative; /* Make the container a positioning context */
+        z-index: 0; /* Not necessary in this case, but can be used for further layering */
+        border-radius: 16px 16px 0px 0px;
+    }
+    img {
+        display: block; /* Ensure proper stacking */
+        position: relative; /* Position the image within the container */
+        width: 400px;
+        height: 266px;
+        border-bottom:3px solid rgb(255, 255, 255);
+        z-index: 1; /* Place the image behind the SVG */
+        border-radius: 16px 16px 0px 0px;
+    }
+    svg {
+        position: absolute; /* Position the SVG within the container */
+        bottom: -1; /* Align it with the bottom of the container */
+        left: 0; /* Align it with the left of the container */
+        z-index: 2; /* Place the SVG in front of the image */
+        width: 400px;
+    }
+/* Textos */
+    .textos{
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 253px;
+        border-radius: 0px 0px 16px 16px;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titulo{
+        margin-top: 8px;
+        width: 342px;
+        height: 72px;
+        font-family: Lato, sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color:#111729;
+        text-align: start;
+    }
+    .descrip{
+        margin-top:13px;
+        width: 342px;
+        height: 48px;
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        color:#677489
+    }
+    /* Perfil Information */
+    .linea{
+        border-top: 1px solid #F2F5F9;
+        width: 100%;
+        margin-top: 21px;
+        display:flex;
+        justify-content: center;
+        align-content: flex-end;
+    }
+    .perfil{
+        width: 342px;
+        height: 100px;
+        bottom:0;
+        margin-bottom: 0px;
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+    }
+        .imagen{
+            width: 38px;
+            height: 38px;
+        }
+        .avatar{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border:3px solid #F2F5F9;
+        }
+        .nombre{
+            margin-left:7%;
+        }
+
+        .A1{
+            font-family: Lato, sans-serif;
+            font-weight: bolder;
+            font-size: 16px;
+            color:#111729;
+            text-align: start;
+            height: 24px;
+            align-items: center;
+        }
+        .A2{
+            font-family: Lato, sans-serif;
+            font-size: 12px;
+            height: 18px;
+            color:#677489;
+            align-items: center;
+        }
