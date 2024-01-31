@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style the body element */
+body {
+  margin: 0px;
+  background: #e6e9fb; /* Set the background color */
+  height: 100vh; /* Set the height to fill the viewport */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+p span {
+  font-family: Poppins, sans-serif;
+}
+
+/* Style the .flotante class flex, center with border  */
+.flotante {
+  background-color: #ffffff;
+  width: 1094px;
+  height: 432px;
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 10px 10px 4px 0px rgba(255, 255, 255, 0.4);
+}
+.hijo1 {
+  width: 593px;
+  height: 50px;
+  font-family: Merriweather, serif;
+}
+.hijo2 {
+  width: 871px;
+  height: 72px;
+  font-size: 1.4rem;
+}
+/* Email Field */
+.hijo3 {
+  width: 814px;
+  height: 72px;
+  display: flex;
+  gap: 16px;
+}
+#useremail {
+  width: 599px;
+  padding: 12px;
+  background-color: #fafaff;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #b3b8d8;
+  border: 1px solid #b3b8d8;
+}
+::placeholder {
+  color: #b3b8d8;
+}
+#subscribed {
+  border-radius: 8px;
+  flex-grow: 2;
+  background-color: #111827;
+  font-family: Poppins, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Check field */
+.hijo4 {
+ 
+  width: 814px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 16px;
+  text-align: left;
+}
+#verificacion{
+  color:rgb(140, 55, 55);
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .flotante{
+    width: 400px;
+    height: 700px;
+  }
+  .hijo1 {
+    width: 350px;
+    font-size: 12px;
+    margin-top: 13px;
+  }
+  .hijo2 {
+    width: 350px;
+    font-size: 17px;
+  }
+  .hijo3 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+    margin-bottom: 2.5rem;
+    
+  }
+  #useremail {
+    flex-grow: 2;
+    width: 350px;
+  }
+  #subscribed {
+    flex-grow: 1;
+  }
+  .hijo4{
+    width: 350px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 864px) {
+  .flotante{
+    width: 400px;
+    height: 700px;
+  }
+  .hijo1 {
+    width: 350px;
+    font-size: 12px;
+    margin-top: 13px;
+  }
+  .hijo2 {
+    width: 350px;
+    font-size: 17px;
+  }
+  .hijo3 {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap:2.5rem;
+    margin-bottom: 2.5rem;
+    
+  }
+  #useremail {
+    flex-grow: 2;
+    width: 350px;
+  }
+  #subscribed {
+    flex-grow: 1;
+  }
+  .hijo4{
+    width: 350px;
+    margin-top: 20px;
+  }
+}

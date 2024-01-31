@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./src/script.js"></script>
+    <title>Newsletter By Estefania Salcedo</title>
+  </head>
+  <body>
+    <div class="flotante">
+      <div class="hijo1">
+        <h1>Level Up Your Frontend Skills</h1>
+      </div>
+      <div class="hijo2">
+        <p>
+          Sign up for our free newsletter to receive weekly coding challenges
+          that will help you improve your frontend development skills.
+        </p>
+      </div>
+      <div id="contenedorEmailConfirmer">
+        <div class="hijo3">
+          <input
+            type="email"
+            name="useremail"
+            id="useremail"
+            placeholder="Enter your email address"
+          />
+          <button id="subscribed">Subscribe</button>
+        </div>
+        <p id="verificacion" hidden></p>
+      </div>
+      <div class="hijo4">
+        <input
+          type="checkbox"
+          class="cosito"
+          name="checknewsletter"
+          id="checknewsletter"
+        />
+        <p class="checktext">
+          By checking this box, you agree to receive our weekly newsletter
+          containing coding challenges, tips, and other related content. You may
+          unsubscribe from the newsletter at any time
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
