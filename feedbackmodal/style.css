@@ -1,0 +1,213 @@
+body {
+  background-color: #d0cbf3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin:0;
+}
+
+.rectangle {
+  width: 850px;
+  height: 388px;
+  padding: 18px 18px 38px 52px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px -15px rgba(0, 0, 0, 0.25);
+  background-color: #1a1832;
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  z-index:1;
+}
+.feedbacksq01 {
+  display: flex;
+  justify-content: flex-end;
+}
+#iconoCerrar {
+  cursor: pointer;
+}
+.feedbacksq02 {
+  width: 630px;
+  height: 72px;
+  margin: 19px 93px 64px;
+  font-family: Merriweather, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.feedbacksq03 {
+  width: 850px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+.numeros {
+  width: 57px;
+  height: 57px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px -15px #111628;
+  border: solid 1px #2e3650;
+  background-color: #1a2036;
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Calibri, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b1b9d8;
+}
+
+.feedbacksq04 {
+  width: 816px;
+  margin: 14px 0px 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.t2 {
+  height: 17px;
+  font-family: Inter, Calibri, sans-serif;;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e7e7e7;
+}
+.feedbacksq05 {
+  width: 818px;
+  display: flex;
+  justify-content: space-between;
+}
+.boton {
+  width: 144px;
+  height: 44px;
+  flex-grow: 0;
+  font-family: Inter, Calibri, sans-serif;;
+  border-radius: 5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+#cancel {
+  border: solid 1px #7a58f4;
+  background-color: #1a1832;
+}
+#submit {
+  background-color: #7a58f4;
+}
+
+#access {
+    border-radius: 6px;
+    height: 150px;
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+    border-color: #b1b9d8;
+    color: black;
+    cursor: pointer;
+    z-index:0;
+    margin-top: 20px; 
+ 
+  }
+
+
+@media (max-width: 1024px) and (min-width: 655px) {
+    .rectangle {
+        width: 650px;
+        height: 400px;
+        padding: 1px 1px 1px 2px;
+      }
+    .feedbacksq01{
+        margin:14px 14px 0px;
+    }
+    .feedbacksq02 {
+        width: 622px;        
+        /* background-color: aqua; */
+        font-size: 23px;
+        margin:14px;
+        text-wrap: wrap;
+      }
+      .feedbacksq03 {
+        width: 622px;
+        margin:14px;
+        gap: 5px;
+        /* background-color: aqua; */
+        justify-content: center;
+      }
+      
+      .feedbacksq04 {
+        width: 622px;
+        margin:14px;
+        justify-content: space-between;
+        /* background-color: aqua; */
+      }
+      .feedbacksq05 {
+        width: 622px;
+        margin:14px;
+        justify-content: space-between;
+      }
+      
+}
+
+@media (max-width: 655px) {
+    .rectangle {
+        width: 370px;
+        height: 900px;
+        padding: 1px;
+      }
+    .feedbacksq01{
+        margin:14px 14px 0px;
+    }
+    .feedbacksq02 {
+        width: 356px;        
+        /* background-color: aqua; */
+        font-size: 23px;
+        margin:25px 7px 30px;
+        text-wrap: wrap;
+      }
+      .feedbacksq03 {
+        width: 356px;
+        margin:25px7px;
+        gap: 3px;
+        /* background-color: aqua; */
+      }
+      
+      .feedbacksq04 {
+        width: 356px;
+        margin:7px;
+        justify-content: space-between;
+        /* background-color: aqua; */
+      }
+      .feedbacksq05 {
+        width: 356px;
+        margin:25px 7px;
+        justify-content: space-between;
+      }
+      
+}

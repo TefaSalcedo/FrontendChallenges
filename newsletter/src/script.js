@@ -31,3 +31,5 @@ document.addEventListener("DOMContentLoaded", () => {
     verificationParagraph.textContent = text;
   }
 });
+
+

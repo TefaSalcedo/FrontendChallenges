@@ -105,7 +105,7 @@ p span {
     display: flex;
     flex-direction: column;
     gap:2.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.9rem;
     
   }
   #useremail {
@@ -117,7 +117,10 @@ p span {
   }
   .hijo4{
     width: 350px;
-    margin-top: 20px;
+    margin-top: 40px;
+  }
+  #verificacion{
+    margin-top:-3.5rem;
   }
 }
 
@@ -153,5 +156,8 @@ p span {
   .hijo4{
     width: 350px;
     margin-top: 20px;
+  }
+  #verificacion{
+    margin-top:-3.5rem;
   }
 }

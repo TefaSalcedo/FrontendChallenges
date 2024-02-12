@@ -1,35 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+/* Apply a universal box-sizing */
 
-body{
-  margin:0px;
-  background: #E6E9FB;
-  height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.flotante{
-  background-color:#FFFFFF;
-  width: 775px;
-  height: 394px;
-  display: flex;
-  padding: 64px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 32px;
-  border-radius: 16px;
-  background: #FFFFFF;
-  box-shadow: 10px 10px 4px 0px rgba(255, 255, 255, 0.40);
-}
+/* Style the .hijo1 class */
 .hijo1{
   display:flex;
   justify-content: center;
+  justify-content: center; /* Center child elements horizontally */
   width: 647px;
   height: 60px;  
   background-color: #FFFFFF;
@@ -38,7 +14,6 @@ body{
 .hijo2{
   display:flex;
   justify-content: center;
-  flex-direction:row;
   width: 647px;
   height: 84px;
   background-color: #FFFFFF;
@@ -75,4 +50,41 @@ svg{
   height: 84px;
   width: 84px;
 
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Style the body element */
+body{
+  margin:0px;
+  background: #E6E9FB; /* Set the background color */
+  height: 100vh; /* Set the height to fill the viewport */
+  display:flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Style the .flotante class */
+.flotante{
+  background-color:#FFFFFF;
+  width: 775px;
+  height: 394px;
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 16px;
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: center; /* Center child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+  gap: 32px; /* Create a gap between child elements */
+  border-radius: 16px; /* Round the corners */
+  background: #FFFFFF;
+  box-shadow: 10px 10px 4px 0px rgba(255, 255, 255, 0.40);
+  box-shadow: 10px 10px 4px 0px rgba(255, 255, 255, 0.40); /* Add a shadow */
 }

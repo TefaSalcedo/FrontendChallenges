@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("imagen1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.recuadroBotones {
+    height: 440px;
+    color:white;
+    text-align: center;
+    background-color: rgba(222, 108, 192, 0.412);
+    border-radius: 16px;
+    box-shadow: 10px 10px 4px 0px rgba(60, 56, 60, 0.4);
+    z-index: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 32px;
+}
+.botones {
+    color: blue;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 12px;
+}
+.btn {
+    background: rgba(206, 22, 239, 0.734);
+    background: linear-gradient(
+        0deg,
+        rgba(240, 9, 225, 0.658) 0%,
+        rgba(130, 5, 240, 0.465) 100%
+    );
+    border-radius: 16px;
+    padding: 10px 20px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+

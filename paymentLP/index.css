@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Poppins;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.navBar {
+  height: 54px;
+  margin: 40px 100px 132px;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  height: 54px;
+  align-items: flex-start;
+}
+.optionsMenu {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  gap: 60px;
+}
+.botones {
+  width: 277px;
+  display: flex;
+  flex-direction: row;
+}
+button {
+  width: 132px;
+  height: 54px;
+  flex-grow: 0;
+  margin: 0 13px 0 0;
+  padding: 12px 36px;
+  border-radius: 10px;
+  background-color: #e9dcff;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1e1e1e;
+}
+.icono {
+  display: none;
+}
+.dropdown-menu {
+    margin: 100px;
+    width: 10%;
+    z-index: 1;
+}
+.dropdown-menu span {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  display: block;
+}
+.dropdown-menu span:hover {
+    background-color: #e9dcff;
+    color:#1e1e1e;
+    font-size: 24px;
+  font-weight: 500;
+}
+
+/* Body */
+/* .contentPage{
+    background-color: #5d5d5d;
+    height:;
+} */
+
+
+
+@media screen and (max-width: 1030px) {
+  /* Estilos para pantallas menores de 1024px */
+  .navBar {
+    height: 54px;
+    display: flex;
+    margin: 25px 32px 38px;
+  }
+  .optionsMenu,
+  .botones {
+    display: none;
+  }
+  .logo {
+    flex-grow: 1;
+  }
+  .icono {
+    height: 54px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+  }
+  .dropdown-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+.menu{
+    width: 360px;
+    height: 53px;
+    /* margin: 89px 1.4px 26px 0; */
+    /* padding: 9px 242px 8px 13px; */
+    border-radius: 8px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;  
+    display:flex;
+    justify-content: flex-end;
+    flex-flow: column nowrap;
+    
+  }
+}
