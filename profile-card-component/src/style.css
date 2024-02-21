@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  margin:0px;
+  background-color: #fff; 
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative
+}
+.ellipse{
+  z-index: 0;
+}
+.card {
+  width: 1098px;
+  height: 544px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 30px;
+  border: solid 20px #ffffff;
+  z-index: 2;
+  position: absolute;
+  align-self: center;
+  display:flex;
+  flex-direction: row;
+}
+/* user  Photo */
+.card__image{
+  margin: 42px 37px 87px 121px;
+}
+/* User info */
+.card__info{
+  /* background-color: rgb(248, 219, 1); */
+  margin: 86px 37px 87px 40px;
+  width: 650px;
+  height: 163px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.card__name{
+  width: 146px;
+  height: 40px;
+  flex-grow: 0;
+  margin: 0 504px 4px 0;
+  font-family: Merriweather, Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #141843;
+}
+.card__proffession{
+  width: 235px;
+  height: 36px;
+  flex-grow: 0;
+  margin: 4px 415px 11px 0;
+  color: #5f627a;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+}
+.card__bio{
+  width: 650px;
+  height: 72px;
+  flex-grow: 0;
+  margin: 11px 0 0;
+  color: #141843;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+}
+
+/* User Stadistics  */
+.card__stats{
+  margin-top: 43px;
+  width: 439px;
+  /* background-color: aqua; */
+  display:flex;
+  flex-direction: row;
+  gap:45px;
+}
+
+.text{
+  width: 84PX;
+  flex-grow: 0;
+  margin: 0 45px 0 0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #141843;
+  /* background-color: aliceblue; */
+}
+.cuadro{
+  width: 142px;
+  display:flex;
+  text-align: center;
+}
+.stats__followers{
+ 
+  border-right: solid 1px #141843;
+  justify-content: flex-start;
+}
+
+.stats__followind{
+  /* width:84px; */
+  border-right: solid 1px #141843;
+  justify-content: center;
+}
+.stats__proj{
+  justify-content: center;
+}
+
+
+
+/* user actions */
+
+.card__actions{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  width: 160px;
+  height: 62px;
+  margin-right: 23px;
+  margin-top: 43px;
+  padding: 16px;
+  flex-grow: 0;
+  border-radius: 10px;
+  border: solid 1px #141843;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 520;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+.btn__follow{
+  background-color: #aef1f5;
+}
+.btn__profile{
+  background-color: #ffddb6;
+}

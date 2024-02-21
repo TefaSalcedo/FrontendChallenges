@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="/src/script.js"></script>
+    <title>Profile Card Component</title>
+  </head>
+  <body>
+    <img src="./src/EllipseLila.svg" />
+    <svg
+      class="ellipse__blue"
+      width="528"
+      height="528"
+      viewBox="0 0 528 528"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="264" cy="264" r="264" fill="url(#paint0_radial_2_6)" />
+      <defs>
+        <radialGradient
+          id="paint0_radial_2_6"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(264 264) rotate(90) scale(264)"
+        >
+          <stop stop-color="#C6FCFF" />
+          <stop offset="1" stop-color="#C6FCFF" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+    </svg>
+    <svg
+      class="ellipse__yellow"
+      width="610"
+      height="720"
+      viewBox="0 0 610 720"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="360" cy="360" r="360" fill="url(#paint0_radial_2_8)" />
+      <defs>
+        <radialGradient
+          id="paint0_radial_2_8"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(360 360) rotate(90) scale(360)"
+        >
+          <stop stop-color="#FFDDB6" />
+          <stop offset="1" stop-color="#FFDDB6" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+    </svg>
+
+    <div class="card">
+      <div class="card__image">
+        <img src="./src/Profile.svg" alt="Profile" />
+      </div>
+      <div class="card__info">
+        <span class="card__name">John Deo</span>
+        <span class="card__proffession"> Frontend Developer </span>
+        <span class="card__bio">
+          Passionate frontend developer with expertise in HTML, CSS, JavaScript,
+          and React.
+        </span>
+        <div class="card__stats">
+          <div class="cuadro stats__followers"> 
+            <span class="text">
+              1999 Followers </span> 
+            </div>
+
+          <div class="cuadro stats__followind">
+             <span class="text">
+              190 Following </span> 
+            </div>
+          <div class="cuadro stats__proj">
+            <span class="text">
+              15 Projects </span>
+          </div>
+        </div>
+        <div class="card__actions">
+          <button class="btn btn__follow">Follow</button>
+          <button class="btn btn__profile">View Profile</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
